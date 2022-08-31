@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* SIDE BAR MENU  */
+.sidenavbar {
+    background-image: linear-gradient(45deg, #bcc5ce, #939fae);
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidenavbar img {
+    width: 65%;
+    height: 30%;
+    border-radius: 50%;
+    border: 8px solid rgb(220, 141, 62);
+    margin: 5%;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: rgba(19, 18, 18, 0.677);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: block;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: rgba(255, 255, 255, 0.982);
+    font-weight: bold;
+}
+
+
+/* MAIN CONTENT  */
+span {
+    color: rgb(24, 218, 195);
+}
+
+.personal {
+    margin-left: 23%;
+    margin-top: 10%;
+    height: 79vh;
+    width: 79%;
+
+}
+
+.name {
+    color: rgb(112, 112, 112);
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: .8%;
+
+}
+
+.address {
+    color: rgb(112, 112, 112);
+    font-size: 1.12em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5%;
+}
+
+.exp {
+    color: rgb(112, 112, 112);
+    font-size: 1.15em;
+    margin-bottom: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.fa-brands {
+    color: rgb(78, 78, 83);
+    margin-right: 1%;
+}
+
+/* EDUCATION */
+.topic {
+    color: rgb(27, 23, 23);
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+
+.edu {
+    margin-bottom: 5%;
+}
+
+.heading {
+    color: rgb(70, 67, 67);
+    font-size: 1.4em;
+    font-family: sans-serif;
+
+}
+
+.course {
+    color: rgb(147, 140, 140);
+    font-size: 1.5em;
+    font-family: monospace;
+
+}
+
+.percent {
+    color: rgb(173, 153, 153);
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* SKILLS */
+.skillsicon {
+    font-size: 50px;
+    margin-top: 3%;
+}
+
+.courseskills {
+    color: rgb(147, 140, 140);
+    font-size: 1.5em;
+    font-family: monospace;
+    margin-top: 2%;
+}
+
+/* EXPERINCE */
+.office {
+    color: rgb(147, 140, 140);
+    font-size: 1.5em;
+    font-family: monospace;
+    margin-top: 1%;
+}
+
+.work {
+    color: rgb(173, 153, 153);
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1%;
+
+}
+
+.expheading {
+    color: rgb(70, 67, 67);
+    font-size: 1.4em;
+    font-family: sans-serif;
+    margin-top: 4%;
+}
+
+/* RESPONSIVE */
+@media (max-width:480px) {
+    .sidenavbar {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .sidenavbar img {
+        display: none;
+    }
+
+    .personal {
+        margin-left: 0;
+        height: auto;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px 5px;
+    }
+
+    .perinfor .name {
+        font-size: 30px;
+    }
+
+    .perinfor .address {
+        font-size: 20px
+    }
+
+    .perinfor .email {
+        font-size: 22px
+    }
+
+    .perinfor .exp {
+        font-size: 15px
+    }
+
+    .perinfor .icon {
+        font-size: 40px
+    }
+
+    .topic {
+        margin-top: 10px;
+    }
+
+}
